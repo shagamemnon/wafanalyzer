@@ -9,7 +9,7 @@ sys.stdout = codecs.getwriter('utf8')(sys.stdout)
 class Waf(object):
     """Waf class.
 
-    Provides an interface to the CloudFlare API only for WAF related 
+    Provides an interface to the CloudFlare API only for WAF related
     functions. Interal properties usually perform an API call and are
     cached internally.
 
@@ -19,7 +19,7 @@ class Waf(object):
     ALL = "ALL"
 
     # API settings
-    API     = "https://api.cloudflare.com/v4/"
+    API     = "https://api.cloudflare.com/client/v4/"
     TIMEOUT = 30
     ROWS    = 15
 
